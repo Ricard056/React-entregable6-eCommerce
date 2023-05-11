@@ -1,0 +1,35 @@
+.filter_category {
+    background-color: white;
+    max-width: 150px;
+    border-radius: 8px;
+    /* padding: 1rem; */
+  }
+  
+  .filter_category__title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+
+  }
+  
+  .filter_category__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .filter_category__item {
+    color: rgb(65, 65, 65);
+    background-color: rgb(236, 236, 236);
+    /* align-items: center; */
+    padding: 0.5rem;
+    margin-bottom: 0.25rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  .filter_category__item:hover {
+    background-color: rgb(204, 204, 204);
+    color: var(--color-btn-cart);
+  }
+  

@@ -1,0 +1,56 @@
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.slider__interior {
+    display: flex;
+    width: 300%;
+    /* border: 5px solid red; */
+    transition: transform 500ms ease;
+    transform: translateX(calc(-0/3 * 100%))
+}
+
+.slider__img-container {
+    padding: 2em;
+    width: 100%;
+    aspect-ratio: 1.5
+}
+
+/* TIP para las Imgs, Nota: deben tener un padre */
+.slider__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Acomodar las flechas */
+.slider__arrowhead {
+    width: 1.8em;
+    aspect-ratio: 1;
+    position: absolute;
+    background-color: var(--color-btn-cart);
+    color: white;
+    font-size: 1.5rem;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.slider__arrowhead:hover {
+    filter: brightness(1.5)
+}
+
+.slider__right {
+    right: 0;
+}

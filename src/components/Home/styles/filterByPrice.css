@@ -1,0 +1,56 @@
+.filter_price {
+    max-width: 180px;
+    /* padding: 1rem; */
+    margin: 0rem 1rem 0rem 0rem;
+    border-radius: 8px;
+}
+
+.filter_price__title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.filter_price__container {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(236, 236, 236);
+
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+
+.filter_price__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter_price__group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.filter_price__label {
+    margin-right: 0.5rem;
+}
+
+.filter_price__input {
+    max-width: 100px;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.filter_price__button {
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: var(--color-btn-cart);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.filter_price__button:hover {
+    background-color: var(--color-btn-cart-hover);
+}
